@@ -92,7 +92,7 @@ Open your browser and navigate to http://localhost:3000.
 
 ### Preview
 Below is a preview of the user interface:
-![Website Preview](./public/screenshot_preview.png>)
+![Website Preview](frontend_faddom/public/screenshot_preview.png)
 
 ---
 
