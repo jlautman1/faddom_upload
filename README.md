@@ -72,19 +72,19 @@ Open your browser and navigate to http://localhost:3000.
 ### Features
 1. Interactive Input Form:
 
-* Enter an IP address of the AWS EC2 instance.
-* Select a time range (Last hours, Last days, or a custom range).
-* Set the data sampling interval in seconds.
+   * Enter an IP address of the AWS EC2 instance.
+   * Select a time range (Last hours, Last days, or a custom range).
+   * Set the data sampling interval in seconds.
 2. Dynamic Chart Display:
 
-* The frontend visualizes CPU usage over time using Chart.js.
-* Displays the time range and data points with clear axes and labels.
+   * The frontend visualizes CPU usage over time using Chart.js.
+   * Displays the time range and data points with clear axes and labels.
 3. Loading Indicator:
 
-* Displays a spinner while data is being fetched.
+   * Displays a spinner while data is being fetched.
 4. Customizable Backend:
 
-*Built with Flask and AWS boto3 SDK for scalability.
+   * Built with Flask and AWS boto3 SDK for scalability.
 
 ### Environment Variables
 * Store sensitive AWS credentials in a .env file, which is excluded from version control using .gitignore.
